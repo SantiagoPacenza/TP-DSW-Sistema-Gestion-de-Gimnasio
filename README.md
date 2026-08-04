@@ -3,7 +3,6 @@
 ## Grupo
 ### Integrantes
 * 42212 - Rodríguez, Germán
-* 50460 - Aguirres, Bautista
 * 51413 - Pacenza, Santiago
 * 52889 - Cisneros, Juan Pablo
 
@@ -15,10 +14,10 @@
 Sistema de Gestión de gimnasio
 
 ### Descripción
-*Aplicación web para la gestión de un gimnasio, que permitirá administrar planes de membresía, socios, entrenadores, rutinas, y dietas personalizadas en base a un formulario inicial, así como la inscripción a clases de distintas disciplinas.*
+*Aplicación web para la gestión de un gimnasio, que permitirá administrar planes de membresía, socios, entrenadores y rutinas personalizadas en base a un formulario inicial, así como la inscripción a clases de distintas disciplinas.*
 
 ### Modelo
-Link al diagrama entidad-relacion: https://drive.google.com/file/d/12f4qHimp0mcrq1XsA6JA3Xwyfgd4hPVr/view?usp=sharing
+Link al diagrama entidad-relacion: https://drive.google.com/file/d/1OcrF1Sl6xauGl_9vustnF5JSOlwjksB5/view
 
 ## Alcance Funcional
 
@@ -27,16 +26,16 @@ Link al diagrama entidad-relacion: https://drive.google.com/file/d/12f4qHimp0mcr
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Usuario<br>2. CRUD Plan<br>3. CRUD Disciplina<br>4. CRUD Categoría|
-|CRUD dependiente|1. CRUD Membresía {depende de} CRUD Plan y CRUD Cliente<br>2. CRUD Clase {depende de} CRUD Disciplina y CRUD Entrenador|
-|Listado<br>+<br>detalle| 1. Listado de formularios de clientes filtrado por estado, muestra nombre, objetivo y estado => detalle CRUD FormularioCliente<br>2. Listado de clases filtrado por entrenador, muestra nombre de la clase, horario, duración y disponibilidad => detalle CRUD Clase|
+|CRUD simple|1. CRUD Usuario<br>2. CRUD Plan<br>3. CRUD Disciplina|
+|CRUD dependiente|1. CRUD Membresía {depende de} CRUD Plan y CRUD Usuario(cliente)<br>2. CRUD Clase {depende de} CRUD Disciplina y CRUD Usuario(entrenador)|
+|Listado<br>+<br>detalle| 1. Listado de solicitud de rutina de clientes filtrado por estado, muestra nombre del cliente, objetivo, fecha de solicitud y estado => detalle CRUD Solicitud<br>2. Listado de clases filtrado por entrenador, muestra disciplina de la clase, horario, duración y disponibilidad => detalle CRUD Clase|
 |CUU/Epic|1. Crear una rutina<br>2. Asignar una rutina a un cliente|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Entrenador<br>2. CRUD Cliente<br>3. CRUD Plan<br>4. CRUD Membresía<br>5. CRUD Pago<br>6. CRUD FormularioCliente<br>7. CRUD Clase<br>8. CRUD Disciplina<br>9. CRUD Rutina<br>10. CRUD Ejercicio<br>11. CRUD Categoría|
+|CRUD |1. CRUD Usuario<br>2. CRUD Plan<br>3. CRUD Membresía<br>4. CRUD Pago<br>5. CRUD Disciplina<br>6. CRUD Clase<br>7. CRUD Categoría<br>8. CRUD Ejercicio<br>9. CRUD Solicitud<br>10. CRUD Rutina|
 |CUU/Epic|1. Crear una rutina<br>2. Asignar una rutina a un cliente<br>3. Registrar membresía y pago<br>4. Realizar una inscripción a una clase|
 
 
