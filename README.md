@@ -17,7 +17,7 @@ Sistema de Gestión de gimnasio
 *Aplicación web para la gestión de un gimnasio, que permitirá administrar planes de membresía, socios, entrenadores y rutinas personalizadas en base a un formulario inicial, así como la inscripción a clases de distintas disciplinas.*
 
 ### Modelo
-Link al diagrama entidad-relacion: https://drive.google.com/file/d/1OcrF1Sl6xauGl_9vustnF5JSOlwjksB5/view
+Link al diagrama entidad-relacion: https://drive.google.com/file/d/1VfqnlyZBfzW0xp8UV3I-G1kObSFSzBxU/view
 
 ## Alcance Funcional
 
@@ -28,7 +28,7 @@ Regularidad:
 |:-|:-|
 |CRUD simple|1. CRUD Usuario<br>2. CRUD Plan<br>3. CRUD Disciplina|
 |CRUD dependiente|1. CRUD Membresía {depende de} CRUD Plan y CRUD Usuario(cliente)<br>2. CRUD Clase {depende de} CRUD Disciplina y CRUD Usuario(entrenador)|
-|Listado<br>+<br>detalle| 1. Listado de solicitud de rutina de clientes filtrado por estado, muestra nombre del cliente, objetivo, fecha de solicitud y estado => detalle CRUD Solicitud<br>2. Listado de clases filtrado por entrenador, muestra disciplina de la clase, horario, duración y disponibilidad => detalle CRUD Clase|
+|Listado<br>+<br>detalle| 1. Listado de solicitud de rutina de clientes filtrado por estado, muestra nombre del cliente, objetivo, fecha de solicitud y estado => detalle CRUD Solicitud<br>2. Listado de clases filtrado por disciplina, muestra día, horario, nombre del entrenador y disponibilidad => detalle CRUD Clase|
 |CUU/Epic|1. Crear una rutina<br>2. Asignar una rutina a un cliente|
 
 
