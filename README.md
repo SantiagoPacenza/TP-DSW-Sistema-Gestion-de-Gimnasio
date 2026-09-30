@@ -17,7 +17,7 @@ Sistema de Gestión de gimnasio
 *Aplicación web para la gestión de un gimnasio, que permitirá administrar planes de membresía, socios, entrenadores y rutinas personalizadas en base a una solicitud, así como la inscripción a clases de distintas disciplinas.*
 
 ### Modelo
-Link al diagrama entidad-relacion: https://drive.google.com/file/d/1VfqnlyZBfzW0xp8UV3I-G1kObSFSzBxU/view
+![Diagrama Entidad-Relación](DER-Gimnasio.png)
 
 ## Alcance Funcional
 
