@@ -8,7 +8,7 @@
 
 ### Repositorios
 * [frontend app]
-* [backend app]
+* [backend app](https://github.com/SantiagoPacenza/TP-DSW-Backend)
 
 ## Tema
 Sistema de Gestión de gimnasio
