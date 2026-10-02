@@ -23,7 +23,7 @@ _Aplicación web para la gestión de un gimnasio, que permitirá administrar pla
 
 ### Modelo
 
-![Diagrama ER](images/DER-Gimnasio.png)
+![Diagrama ER](images/DER_gimnasio.png)
 
 ## Alcance Funcional
 
