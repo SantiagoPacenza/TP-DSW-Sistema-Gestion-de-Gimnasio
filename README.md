@@ -1,23 +1,29 @@
 # Propuesta TP DSW
 
 ## Grupo
+
 ### Integrantes
-* 42212 - Rodríguez, Germán
-* 51413 - Pacenza, Santiago
-* 52889 - Cisneros, Juan Pablo
+
+- 42212 - Rodríguez, Germán
+- 51413 - Pacenza, Santiago
+- 52889 - Cisneros, Juan Pablo
 
 ### Repositorios
-* [frontend app]
-* [backend app](https://github.com/SantiagoPacenza/TP-DSW-Backend)
+
+- [frontend app]
+- [backend app](https://github.com/SantiagoPacenza/TP-DSW-Backend)
 
 ## Tema
+
 Sistema de Gestión de gimnasio
 
 ### Descripción
-*Aplicación web para la gestión de un gimnasio, que permitirá administrar planes de membresía, socios, entrenadores y rutinas personalizadas en base a una solicitud, así como la inscripción a clases de distintas disciplinas.*
+
+_Aplicación web para la gestión de un gimnasio, que permitirá administrar planes de membresía, socios, entrenadores y rutinas personalizadas en base a una solicitud, así como la inscripción a clases de distintas disciplinas._
 
 ### Modelo
-![Diagrama Entidad-Relación](DER-Gimnasio.png)
+
+![Diagrama ER](images/DER-Gimnasio.png)
 
 ## Alcance Funcional
 
@@ -31,18 +37,16 @@ Regularidad:
 |Listado<br>+<br>detalle| 1. Listado de solicitud de rutina de clientes filtrado por estado, muestra nombre del cliente, objetivo, fecha de solicitud y estado => detalle CRUD Solicitud<br>2. Listado de clases filtrado por disciplina, muestra día, horario, nombre del entrenador y disponibilidad => detalle CRUD Clase|
 |CUU/Epic|1. Solicitar una rutina personalizada<br>2. Crear y asignar una rutina a un cliente|
 
-
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Usuario<br>2. CRUD Plan<br>3. CRUD Membresía<br>4. CRUD Pago<br>5. CRUD Disciplina<br>6. CRUD Clase<br>7. CRUD Inscripción<br>8. CRUD Solicitud<br>9. CRUD Categoría<br>10. CRUD Ejercicio<br>11. CRUD EjercicioRutina<br> 12. CRUD Rutina|
 |CUU/Epic|1. Solicitar una rutina personalizada<br>2. Crear y asignar una rutina a un cliente<br>3. Consultar rutina|
 
-
 ### Alcance Adicional Voluntario
 
-|Req|Detalle|
-|:-|:-|
-|Listados ||
-|CUU/Epic||
-|Otros||
+| Req      | Detalle |
+| :------- | :------ |
+| Listados |         |
+| CUU/Epic |         |
+| Otros    |         |
