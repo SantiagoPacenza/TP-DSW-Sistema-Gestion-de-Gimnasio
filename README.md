@@ -10,7 +10,7 @@
 
 ### Repositorios
 
-- [frontend app]
+- [frontend app](https://github.com/german-a-rodriguez/TP-DSW-Frontend)
 - [backend app](https://github.com/SantiagoPacenza/TP-DSW-Backend)
 
 ## Tema
